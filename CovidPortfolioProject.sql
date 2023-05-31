@@ -96,7 +96,7 @@ JOIN PortfolioProject..CovidVaccinations vac
 SELECT *, ( VaccinatedPeopleCount/population)*100 as VacinatedPercentage
 FROM PopvsVac
 
--- TEMP TABLE
+-- CREATING TEMP TABLE
 
 DROP TABLE IF EXISTS #VacinatedPercentage
 CREATE TABLE #VacinatedPercentage
